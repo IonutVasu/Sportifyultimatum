@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item_conversation.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/poza_default" />
+
+    <TextView
+        android:id="@+id/conversation_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conversation Name"
+        android:textSize="18sp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/conversation_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conversation Description"
+        android:textSize="14sp"
+        android:paddingTop="4dp" />
+</LinearLayout>
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+        <Spinner
+            android:id="@+id/sportSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_color"
+            android:popupBackground="@color/primary_color"
+            android:textColor="@android:color/white"/>
+
+        <Spinner
+            android:id="@+id/locationSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_color"
+            android:popupBackground="@color/primary_color"
+            android:textColor="@android:color/white"
+            style="@style/CustomSpinnerStyle"/>
+
+        <EditText
+            android:id="@+id/numPlayersEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Număr de jucători" />
+
+        <TextView
+            android:id="@+id/difficultyLevelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/descriptionEditText"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="2dp"
+            android:text="Nivel de dificultate:" />
+
+        <LinearLayout
+            android:id="@+id/difficultyLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/difficultyLevelTextView"
+            android:layout_marginTop="2dp">
+
+                <RadioGroup
+                    android:id="@+id/difficultyRadioGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioBeginner"
+                            android:layout_width="121dp"
+                            android:layout_height="wrap_content"
+                            android:text="Incepator" />
+
+                        <RadioButton
+                            android:id="@+id/radioIntermediate"
+                            android:layout_width="118dp"
+                            android:layout_height="wrap_content"
+                            android:text="Mediu" />
+
+                        <RadioButton
+                            android:id="@+id/radioAdvanced"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Avansat" />
+                </RadioGroup>
+        </LinearLayout>
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descriere" />
+
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="293dp"
+            android:layout_below="@id/descriptionEditText"
+            android:layout_marginTop="2dp" />
+
+        <Button
+            android:id="@+id/submitRequestButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trimite Cererea" />
+
+</LinearLayout>

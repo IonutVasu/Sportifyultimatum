@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema principală a aplicației -->
+    <style name="Theme.AplicatieSportiva" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Personalizează atributele temei aici -->
+        <item name="android:windowBackground">@color/primary_color</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColorHint">@color/text_color</item>
+        <item name="buttonStyle">@style/ButtonStyle</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="editTextStyle">@style/EditTextStyle</item>
+    </style>
+
+    <!-- Tema pentru ecranul de lansare -->
+    <style name="Theme.AplicatieSportiva.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    <!-- Custom button style -->
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:backgroundTint">@color/button_color</item>
+    </style>
+    <!-- Custom spinner style -->
+    <style name="SpinnerTextStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <!-- Custom TextView style -->
+    <style name="TextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <!-- Custom EditText style -->
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:hint">@android:color/white</item>
+    </style>
+    <!-- Stil pentru spinner -->
+    <style name="CustomSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:backgroundTint">@color/primary_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

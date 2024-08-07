@@ -1,0 +1,12 @@
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="lime">#00ff00</color>
+    <color name="black">#000000</color>
+    <color name="primary_color">#28A9E0</color> <!-- Blue -->
+    <color name="accent_color">#FF8C00</color> <!-- Orange -->
+    <color name="background_color">#00CC99</color> <!-- Teal Green -->
+    <color name="text_color">#FFFFFF</color> <!-- White -->
+    <color name="button_text_color">#FFFFFF</color> <!-- White -->
+    <color name="button_color">#FF8C00</color> <!-- Orange -->
+    <color name="header_background_color">#FF6347</color> <!-- Tomato Red -->
+</resources>
